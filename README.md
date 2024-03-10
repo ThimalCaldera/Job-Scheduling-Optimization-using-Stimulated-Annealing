@@ -30,13 +30,13 @@ This repository contains the implementation of a simulated annealing algorithm f
 
 ## Function Descriptions
 
-### calculate_completion_time(solution, processing_times, machine_availability)
+#### calculate_completion_time(solution, processing_times, machine_availability)
 - Calculates the completion time for a given solution considering machine availability constraints.
 
-### generate_neighbor(solution, machine_availability, processing_times)
+#### generate_neighbor(solution, machine_availability, processing_times)
 - Generates a neighboring solution by randomly moving a job to a different machine, respecting machine availability.
 
-### stimulated_annealing(initial_solution, processing_times, temperature, cooling_rate)
+#### stimulated_annealing(initial_solution, processing_times, temperature, cooling_rate)
 - Implements the simulated annealing algorithm to find an optimal solution for the job scheduling problem.
 
 ## Customization
